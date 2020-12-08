@@ -1,0 +1,131 @@
+[31merror[39m: Error: Not found
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\src\app.js:80:8
+    at Layer.handle_error (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:315:13)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:275:10)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:635:15
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:260:14)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:635:15
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\route.js:127:14)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\src\utils\catchAsync.js:2:54
+[31merror[39m: POST /v1/auth/login 404 - 95.436 ms - message: Not found
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: POST /v1/auth/login 200 - 32.559 ms
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 60.952 ms
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 62.564 ms
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[31merror[39m: Error: Not found
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\src\app.js:88:8
+    at Layer.handle_error (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:315:13)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:275:10)
+    at Layer.handle_error (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:315:13)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:275:10)
+    at Layer.handle [as handle_request] (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\layer.js:97:5)
+    at trim_prefix (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:317:13)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:275:10)
+[31merror[39m: POST /v1/auth/login 404 - 41.726 ms - message: Not found
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 64.851 ms
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[31merror[39m: GET /api/auth/login 404 - 1.428 ms - message: -
+[31merror[39m: POST /api/auth/login 404 - 0.538 ms - message: -
+[31merror[39m: POST /auth/login 404 - 0.497 ms - message: -
+[31merror[39m: POST /api/auth/login 404 - 0.606 ms - message: -
+[31merror[39m: POST /api/auth/login 404 - 0.496 ms - message: -
+[31merror[39m: POST /api/auth/login 404 - 0.468 ms - message: -
+[32minfo[39m: GET /v1/docs/swagger-ui-standalone-preset.js.map 200 - 4.439 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-bundle.js.map 200 - 7.932 ms
+[32minfo[39m: GET /v1/docs/swagger-ui.css.map 200 - 9.729 ms
+[32minfo[39m: POST /v1/auth/login 200 - 24.061 ms
+[32minfo[39m: GET /v1/docs/ 200 - 2.149 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-init.js 200 - 0.477 ms
+[32minfo[39m: GET /v1/docs/swagger-ui.css 200 - 1.194 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-standalone-preset.js 200 - 14.389 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-bundle.js 200 - 12.674 ms
+[32minfo[39m: GET /v1/docs/swagger-ui.css.map 304 - 0.988 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-bundle.js.map 304 - 0.646 ms
+[32minfo[39m: GET /v1/docs/swagger-ui-standalone-preset.js.map 304 - 0.540 ms
+[32minfo[39m: GET /v1/docs/favicon-16x16.png 200 - 0.681 ms
+[32minfo[39m: POST /v1/auth/login 200 - 20.455 ms
+[32minfo[39m: POST /v1/auth/login 200 - 19.928 ms
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 64.904 ms
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 65.042 ms
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 79.345 ms
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: POST /v1/auth/login 200 - 63.995 ms
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[31merror[39m: Error: Not found
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\src\app.js:102:8
+    at Layer.handle_error (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:315:13)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:275:10)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:635:15
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:260:14)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:635:15
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\Working\Nodejs\node-express-mongoose-boilerplate\node_modules\express\lib\router\route.js:127:14)
+    at D:\Working\Nodejs\node-express-mongoose-boilerplate\src\utils\catchAsync.js:2:54
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:434:9)
+[31merror[39m: POST /v1/auth/login 404 - 67.363 ms - message: Not found
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
+[33mwarn[39m: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+[32minfo[39m: Connected to MongoDB
+[32minfo[39m: Listening to port 4000
