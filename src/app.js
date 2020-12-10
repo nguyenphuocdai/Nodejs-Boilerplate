@@ -14,7 +14,6 @@ const validateRequest = require('./middlewares/validateRequest');
 const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/ApiError');
-const winston = require('winston');
 var bodyParser = require('body-parser')
 
 const app = express();
@@ -55,49 +54,48 @@ if (config.env === 'production') {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// app.use(validateRequest);
-app.use(function(req, res, next) {
-  // Put some preprocessing here.
-  // winston.log(`${req}`);
-  // console.log(req.headers);
-  req.body.date = new Date();
-  // req.body.RequestID = 11111;
-  console.log(req.body);
-  // res.on('finish', function() {
-  //   console.log(res);
-  // });
-  // next();
-  // var oldWrite = res.write,
-  //     oldEnd = res.end;
+app.use(validateRequest);
+// app.use(function(req, res, next) {
+//   // Put some preprocessing here.
+//   // winston.log(`${req}`);
+//   // console.log(req.headers);
+//   // req.body.RequestID = 11111;
+//   console.log(req.body);
+//   // res.on('finish', function() {
+//   //   console.log(res);
+//   // });
+//   // next();
+//   // var oldWrite = res.write,
+//   //     oldEnd = res.end;
 
-  // var chunks = [];
+//   // var chunks = [];
 
-  // res.write = function (chunk) {
-  //   chunks.push(chunk);
+//   // res.write = function (chunk) {
+//   //   chunks.push(chunk);
 
-  //   return oldWrite.apply(res, arguments);
-  // };
+//   //   return oldWrite.apply(res, arguments);
+//   // };
 
-  // res.end = function (chunk) {
-  //   if (chunk)
-  //     chunks.push(chunk);
+//   // res.end = function (chunk) {
+//   //   if (chunk)
+//   //     chunks.push(chunk);
 
-  //   var body = Buffer.concat(chunks).toString('utf8');
-  //   console.log(req.path, body);
+//   //   var body = Buffer.concat(chunks).toString('utf8');
+//   //   console.log(req.path, body);
 
-  //   oldEnd.apply(res, arguments);
-  // };
-  // console.log(chunks);
+//   //   oldEnd.apply(res, arguments);
+//   // };
+//   // console.log(chunks);
   
 
-  next();
-});
+//   next();
+// });
 
 // v1 api routes
 app.use('/v1', routes);
 // send back a 404 error for any unknown api request
 app.use((err, req, res, next) => {
-  next(new ApiError(httpStatus.NOT_FOUND, 'Not found'));
+  next(new ApiError(httpStatus.NOT_FOUND, err.message));
 });
 
 // convert error to ApiError, if needed

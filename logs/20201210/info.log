@@ -1,0 +1,74 @@
+{
+  RequestID: '4d36f000-3a9b-11eb-b39b-3b97d859b92d',
+  Headers: {
+    host: 'localhost:4000',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0',
+    accept: 'application/json',
+    'accept-language': 'en-US,en;q=0.5',
+    'accept-encoding': 'gzip, deflate',
+    'content-type': 'application/json',
+    origin: 'http://localhost:4000',
+    'content-length': '51',
+    connection: 'keep-alive',
+    cookie: '.ASPXANONYMOUS=cVIFyNZ2ONLGbVcQRKOYqCIVuXi4QjERVvbYZd0o8CVJlb74yqVhV0fc1jjLxXvD0DxKDoiWMz1WtSBtNwuYup3FAwfcpIafJ9cNws5ph_nNoFSx0; .Nop.Customer=c266d06d-ae87-4d97-aa18-95d32caf9e11; SMARTSTORE.VISITOR=f376523f-e5c1-4d9f-86ba-426678403954; CookieConsent={"AllowAnalytics":true,"AllowThirdParty":true}; sm:PreviewToolOpen=True; SmartStore.RecentlyViewedProducts=RecentlyViewedProductIds=1&RecentlyViewedProductIds=15&RecentlyViewedProductIds=10'
+  },
+  URL: '/v1/auth/login',
+  Method: 'POST',
+  RequestData: {
+    email: 'fake@example.com',
+    password: 'qqq111!!!',
+    requestID: '4d36f000-3a9b-11eb-b39b-3b97d859b92d',
+    requestDateTime: 2020-12-10T03:53:45.472Z
+  },
+  level: 'info',
+  timestamp: '12/10/2020, 10:53:48 AM'
+}
+{
+  RequestID: '4d36f000-3a9b-11eb-b39b-3b97d859b92d',
+  URL: '/v1/auth/login',
+  ResponseData: {
+    user: {
+      role: 'user',
+      name: 'Nguyen Phuoc Dai',
+      email: 'fake@example.com',
+      id: '5fcf2aeb14448124d4a23440'
+    },
+    tokens: {
+      access: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZmNmMmFlYjE0NDQ4MTI0ZDRhMjM0NDAiLCJpYXQiOjE2MDc1NzI0MjgsImV4cCI6MTYwNzU3NDIyOCwidHlwZSI6ImFjY2VzcyJ9.VyYAr9Eg_SGf6lI8k5DX_w3pFoeN1vqfaXrc0XP7GOU',
+        expires: '2020-12-10T04:23:48.426Z'
+      },
+      refresh: {
+        token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZmNmMmFlYjE0NDQ4MTI0ZDRhMjM0NDAiLCJpYXQiOjE2MDc1NzI0MjgsImV4cCI6MTYxMDE2NDQyOCwidHlwZSI6InJlZnJlc2gifQ.2DMxBPA9WM-Eqz7RlN1Xt-A8d8zxsNQhS4YhWkeWF7w',
+        expires: '2021-01-09T03:53:48.428Z'
+      }
+    }
+  },
+  level: 'info',
+  timestamp: '12/10/2020, 10:53:49 AM'
+}
+{
+  message: 'POST /v1/auth/login 200 - 4016.519 ms',
+  level: 'info',
+  timestamp: '12/10/2020, 10:53:49 AM'
+}
+{
+  message: 'Unable to connect to email server. Make sure you have configured the SMTP options in .env',
+  level: 'warn',
+  timestamp: '12/10/2020, 10:54:00 AM'
+}
+{
+  message: 'Connected to MongoDB mongodb://127.0.0.1:27017/node-boilerplate',
+  level: 'info',
+  timestamp: '12/10/2020, 10:56:45 AM'
+}
+{
+  message: 'Listening to port 4000',
+  level: 'info',
+  timestamp: '12/10/2020, 10:56:45 AM'
+}
+{
+  message: 'Unable to connect to email server. Make sure you have configured the SMTP options in .env',
+  level: 'warn',
+  timestamp: '12/10/2020, 10:57:02 AM'
+}
